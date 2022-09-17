@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+html, body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: #eee;
+    background-color: #3A3845;
+    margin-bottom: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    text-align: center;
+    margin: auto;
+    width: 500px;
+}
+
+h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    padding: 30px;
+}
+
+#todo-subtitle {
+    margin-bottom: 10px;
+}
+
+input[type=text] {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#todo-submit {
+    background-color: #C69B7B;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#todo-submit:hover {
+    background-color: #d7c79e;
+}
+
+#todo-output li {
+    width: 400px;
+    margin: 10px auto;
+    text-align: left;
+    list-style-type: square;
+}
